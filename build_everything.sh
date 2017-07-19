@@ -1,3 +1,4 @@
+set -e
 (
   echo demo01-hello-world
   cd demo01-hello-world
@@ -36,5 +37,10 @@
 (
   echo demo08-coroutines-monad-style
   cd demo08-coroutines-monad-style
+  stack build
+)
+(
+  echo demo09-monadic-parser-combinators
+  cd demo09-monadic-parser-combinators
   stack build
 )
