@@ -28,3 +28,8 @@
   cd demo06-complete-the-monad
   stack build
 )
+(
+  echo demo07-logging-monad
+  cd demo07-logging-monad
+  stack build
+)
