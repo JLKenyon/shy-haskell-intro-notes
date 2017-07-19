@@ -33,3 +33,8 @@
   cd demo07-logging-monad
   stack build
 )
+(
+  echo demo08-coroutines-monad-style
+  cd demo08-coroutines-monad-style
+  stack build
+)
