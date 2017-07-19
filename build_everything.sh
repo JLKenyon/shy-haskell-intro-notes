@@ -44,3 +44,8 @@ set -e
   cd demo09-monadic-parser-combinators
   stack build
 )
+(
+  echo demo10-haskell-hello-helm
+  cd demo10-haskell-hello-helm
+  stack build
+)
