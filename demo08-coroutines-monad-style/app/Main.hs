@@ -59,9 +59,6 @@ data Agent = Agent {
     next :: Free Action ()
 }
 
-foo :: Agent -> Float
-foo some_agent = (speed some_agent)
-
 -- How to render our "world"
 frame :: Agent -> Picture
 
