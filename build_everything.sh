@@ -54,3 +54,8 @@ set -e
   cd demo11-haskell-helm-with-agents
   stack build
 )
+(
+  echo demo12-quickcheck
+  cd demo12-quickcheck
+  stack build
+)
