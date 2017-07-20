@@ -49,3 +49,8 @@ set -e
   cd demo10-haskell-hello-helm
   stack build
 )
+(
+  echo demo11-haskell-helm-with-agents
+  cd demo11-haskell-helm-with-agents
+  stack build
+)
