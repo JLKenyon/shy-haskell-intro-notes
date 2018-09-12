@@ -77,6 +77,8 @@ void main3() {
 ///////////////////////////////////////////////////////////////////////////////
 // Main 4
 
+// Now lets see if we make logic into a monoid, by adding a + operator to functions (kind of)
+
 class ThingThatCanBeDone {
 public:
   ThingThatCanBeDone(std::function<void(void)> func) {
