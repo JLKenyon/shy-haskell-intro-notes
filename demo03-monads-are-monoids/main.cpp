@@ -24,7 +24,7 @@ int main() {
 ///////////////////////////////////////////////////////////////////////////////
 // Main 1
 void main1() {
-  std::cout << "Ints are monads because you can + them." << std::endl;
+  std::cout << "Ints are monids because you can + them." << std::endl;
   int a = 1 + 2 + 3 + 4;
   std::cout << "a = " << a << std::endl;
 }
